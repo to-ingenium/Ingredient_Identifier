@@ -1,0 +1,28 @@
+[project]
+name = "recipe-recommender"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.6.0",
+    "glob2>=0.7",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.1",
+    "numpy==2.0.0",
+    "opencv-python>=4.11.0.86",
+    "pandas>=2.2.3",
+    "roboflow>=1.1.67",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "simple-image-download>=0.5",
+    "tensorflow>=2.18.1",
+    "tensorflow-hub>=0.16.1",
+    "tf-keras>=2.18.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
